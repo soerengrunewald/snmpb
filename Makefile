@@ -42,7 +42,7 @@ src/makefile.snmpb:
 ifneq ($(findstring MINGW,${os}),)
 	cd src; ${WINQT_PREFIX}qmake -o makefile.snmpb snmpb.pro
 else
-	cd src; qmake -qt=qt5 -o makefile.snmpb snmpb.pro
+	cd src; qmake-qt5 -o makefile.snmpb snmpb.pro
 endif
 
 src/snmpb: src/makefile.snmpb

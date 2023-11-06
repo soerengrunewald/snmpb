@@ -17,8 +17,9 @@
 
 #include <qmessagebox.h>
 #include <qnamespace.h>
-#include <qwt6/qwt_plot_zoomer.h>
-#include <qwt6/qwt_plot_layout.h>
+#include <qwt/qwt_text.h>
+#include <qwt/qwt_plot_zoomer.h>
+#include <qwt/qwt_plot_layout.h>
 
 #include "preferences.h"
 #include "graph.h"
