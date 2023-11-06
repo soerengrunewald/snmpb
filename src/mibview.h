@@ -18,7 +18,10 @@
 #ifndef MIBVIEW_H
 #define MIBVIEW_H
 
+extern "C" {
 #include <smi.h>
+};
+
 #include <qstring.h>
 #include <qfile.h>
 #include <qfileinfo.h>
